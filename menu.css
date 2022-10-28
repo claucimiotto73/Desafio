@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu {
+    display: flex;
+    min-height: 70px;
+    background-color: white ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+    margin: auto;
+  
+}
+
+.menu h1 {
+  display: flex;
+ text-align: justify;
+  flex-flow: row wrap;
+  font-size: 16px;
+ margin: 9px;
+  
+ 
+   
+}
+
+nav a {
+    font-weight: 600px;
+    padding-right: 10px;
+    padding: 10px 10px 9px 10px;
+    font-size: 13px;
+
+}
+nav a:hover {
+background-color: darkgrey;
+
+}
+nav {
+    background-color: white;
+    
+}
+/*banner*/
+
+.contenedor img {
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    top:20%;
+    left: 10%;
+}
+@media all and ( min-width: 640px) {
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+.contenedor h1 {
+
+    position: absolute;
+    top: 150px;
+    margin-right: -30%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 4.5vw;
+    color: white;
+
+
+      
+        
+}
+.contenedor button{
+        background-color: rgb(247, 49, 181);
+    
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    border-bottom: none;
+    padding: 13px;
+    
+    cursor: pointer;
+    background-size: contain;
+    text-align: center;
+    top: 330px;
+    margin-left: 48%;
+}
+
+.contenedor button:hover {
+    display: flex;
+    background-color:  darkgrey;
+    }
+
+/*pagina 2*/
+.programadora {
+    margin-top: 50%;
+    width: 100%;
+}
+@media all and ( min-width: 640px) {
+    .programadora {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+.titulo {
+    display: flex;
+   padding: 30px;
+    top: 85px;
+   padding-left: 30px;
+    left: 30%;
+    text-align: left;
+   justify-content: flex-end;
+   height: 70vh;
+    font-size: 1.9vw;
+    margin-top: 590px;
+    position: absolute;
+    padding-left: 10%;
+    
+}
+
+.texto {
+    margin-top: 150px;
+    display: flex;
+
+   float: left;
+   left: 30%;
+   justify-content: center;
+   align-items: center;
+   height: 78vh;
+   font-size: 12px;
+   position: static;
+}
+.texto h1 {
+    left: 60%;
+    text-align: justify;
+
+}
+
+.texto img{
+    width: 50%;
+    height: 80%;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.txt {
+    padding-left: 0%;
+}
+
+
+/*pagina 3*/
+.caja{
+    display: flex;
+   flex-direction: row;
+    position: absolute;
+    width: 100%;
+   height: 100%;
+   max-width: 100%;
+    justify-content: flex-end;
+     background-color:  rgb(58, 56, 56);
+     position: static;
+    
+}
+@media all and ( min-width: 640px) {
+    .caja {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.nuestros .program  {
+    display: inline-flex;
+   font-size: 40px;
+ justify-content: center;
+  background-color:  rgb(58, 56, 56);
+  margin-top: 20%;
+width: 100%;
+}
+.program h4{
+    
+    color: white;   
+}
+
+.primera {
+width: 30% ;
+float: left;
+color: white;
+padding: 10px 10px;
+justify-items: flex-e;
+box-sizing: border-box;
+font-size: 16px;
+text-align: center;
+margin: 20px;
+line-height: 1.1;
+border-radius: 20px;
+background-color:  rgb(66, 65, 65);
+
+}
+article .primera{
+    height: 170px;
+    background-color: dimgray;
+    width: 30%;
+    border-radius: 20px;
+}
+.uno img{
+    float: inline-start;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: -69px;
+    margin-top: 10px;
+}
+.primera button {
+ background-color: rgb(235, 13, 135);
+border: none;
+color: white;
+height: 30px;
+width: 80px;
+cursor: pointer;
+}
+
+.primera button:hover {
+
+background-color:  darkgrey;
+}
+
+
+.segunda {  
+width: 30% ;
+float: left;
+padding: 10px 10px;
+color: white;
+justify-items: flex-end;
+box-sizing: border-box;
+font-size: 16px;
+text-align: center;
+margin: 20px;
+line-height: 1.1;
+border-radius: 20px;
+background-color: rgb(66, 65, 65);
+
+}
+.titulo2 img{
+    float: inline-start;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: -69px;
+    margin-top: 10px;
+}
+
+article .segunda{
+    height: 170px;
+    background-color: dimgray;
+    width: 30%;
+    border-radius: 20px;
+  
+}
+.segunda button {
+ background-color: rgb(235, 13, 135);
+border: none;
+color: white;
+height: 30px;
+width: 80px;
+cursor: pointer;
+}
+
+.segunda button:hover {
+
+background-color:  darkgrey;
+}
+
+
+.tercera {
+width: 30% ;
+float: left;
+color: white;
+padding: 10px 10px;
+justify-items: flex-end;
+box-sizing: border-box;
+font-size: 16px;
+text-align: center;
+margin: 20px;
+line-height: 1.1;
+border-radius: 20px;
+background-color:  rgb(66, 65, 65);
+
+
+}
+.titulo3 img{
+    float: inline-start;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: -69px;
+    margin-top: 10px;
+
+  
+}
+article .tercera{
+    height: 170px;
+    background-color: dimgray;
+    width: 30%;
+    border-radius: 20px;
+  
+}
+.tercera button {
+ background-color: rgb(235, 13, 135);
+border: none;
+color: white;
+height: 30px;
+width: 80px;
+cursor: pointer;
+}
+
+
+.tercera button:hover {
+
+background-color:  darkgrey;
+}
+
+.titulo_1 h6 {
+    position: relative;
+    left: 5%;
+    overflow: hidden;
+    font-size: 2.5vw;
+    color: white;
+}
+.titulo2 h6 {
+   position: relative;
+   left: 5%;
+   overflow: hidden;
+   font-size: 2.5vw;
+   color: white;
+
+}
+.titulo_3 h6 {
+    position: relative;
+    left: 5%;
+    overflow: hidden;
+    font-size: 2.5vw;
+    color: white;
+}
+
+  /*pagina 4*/
+.pagina4 img {
+  margin-right: 10%;
+  margin-top: 165px;
+    float: right;
+ width: 20%;
+ height: 20%;
+ 
+}
+.pagina4 li{
+  margin-left: 20%;
+margin-top: 4px;
+ flex-direction: column;
+ text-decoration: none;
+   color: rgba(4, 4, 51, 0.808);
+   list-style: none;
+
+}
+
+
+#caracteristicas .container{
+    text-align: justify;
+    padding: 200px 40px;
+    margin-left: 3%;
+    font-size: 1.7vw;
+    flex-wrap: wrap;
+   
+   
+
+}
+/*pagina 5*/
+.programar{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    padding: 0px;
+ height: 50vh;
+ background-color: rgb(247, 88, 167);
+       margin-top: 10%;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       
+}
+    .programar h1{
+    
+      height: 200px;
+      align-items: center;
+    }
+    .programar button{  
+        background-color: rgb(226, 47, 167);
+   border-color: rgb(134, 73, 106);
+   box-shadow: 3px 5px 10px rgb(241, 7, 124);
+   transition: all0.3s ease-in-out;
+   color: white;
+   height: 30px;
+   width: 120px;
+   cursor: pointer;
+}
+
+.programar button:hover {
+    
+    background-color:  darkgrey;
+    }
+    @media all and ( min-width: 640px) {
+        .programar {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: relative;
+            justify-content: center;
+        }
+        
+    }
